@@ -17,3 +17,4 @@ Documents of development
 ## Backend
 
 - [Start a new django project](documents/backend/start_a_new_django_project.md)
+- [Naming convention](documents/backend/naming_convention.md)
