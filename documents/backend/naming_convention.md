@@ -52,3 +52,8 @@ def get_upload_file_path(instance, filename):
 ```
 path('users/<str:pk>/update-line-uid/', update_line_uid_view),
 ```
+
+如果在 APIView 中有客製化 api，則直接將 APIView import 到 router 使用：
+```
+path('upload-signed-urls/', UploadSignedUrlAPIView.as_view()),
+```
